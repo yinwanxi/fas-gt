@@ -1,4 +1,4 @@
-# **fas-rs**
+# **fas-gt**
 
 [![English][readme-en-badge]][readme-en-url]
 [![Stars][stars-badge]][stars-url]
