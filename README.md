@@ -21,13 +21,14 @@
 
 > 假如肉眼看到的画面能直接反映在调度上，也就是说以把调度器放在观看者的角度来决定性能，是否就能实现完美的性能控制和最大化体验? `FAS (Frame Aware Scheduling)`就是这种调度概念，通过监视画面渲染来尽量控制性能以在保证渲染时间的同时实现最小化开销
 
-- ### **什么是`fas-rs`?**
+- ### **什么是`fas-gt`?**
 
-  - `fas-rs`是运行在用户态的`FAS(Frame Aware Scheduling)`实现，对比核心思路一致但是在内核态的`MI FEAS`有着近乎在任何设备通用的兼容性和灵活性方面的优势
+  - `fas-gt`是运行在用户态的`FAS(Frame Aware Scheduling)`实现，对比核心思路一致但是在内核态的`MI FEAS`有着近乎在任何设备通用的兼容性和灵活性方面的优势
+  - 'fat-gt'源自fas-rs，是由其衍生的一个修改版本
 
 ## **插件系统**
 
-- 为了最大化用户态的灵活性，`fas-rs`有自己的一套插件系统，开发说明详见[插件的模板仓库](https://github.com/shadow3aaa/fas-rs-extension-module-template)
+- 为了最大化用户态的灵活性，`fas-gt`有自己的一套插件系统，开发说明详见[插件的模板仓库](https://github.com/yinwanxi/Fas_gt_dlc)
 
 ## **自定义(配置)**
 
