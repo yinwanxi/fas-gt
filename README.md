@@ -142,6 +142,3 @@ cd fas-rs
 python3 ./make.py build --release
 ```
 
-## **捐赠**
-
-[🐷🐷的爱发电](https://afdian.com/a/shadow3qaq)，你的捐赠可以增加🐷🐷维护开发此项目的动力。
